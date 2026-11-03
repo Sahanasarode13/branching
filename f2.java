@@ -1,9 +1,10 @@
 package merge;
-public class sum {
+public class reverse {
     public static void main(String args[]) {
-        int a=10;
-        int b=20;
-        int c=a+b;
-        System.out.println("Sum of a and b is: " + c);
+        String str = "Hello World";
+        String rev = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            rev += str.charAt(i);
+        }
+        System.out.println("Reverse of the string is: " + rev);
     }
-}
